@@ -15,7 +15,7 @@ def main():
     for folder_path in folder_paths:
         files, error_message = list_files_in_folderpath(folder_path)
         if files:
-            print("files in " + folder_path)
+            print("==================" + folder_path +  "=====================")
             for file in files:
                 print(file)
         else:
